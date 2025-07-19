@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio_kenji/static/css/main.a321f5b1.css",
-    "main.js": "/react_portfolio_kenji/static/js/main.29b2271f.js",
+    "main.js": "/react_portfolio_kenji/static/js/main.57200d14.js",
     "static/js/453.b05d8aa5.chunk.js": "/react_portfolio_kenji/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/react_portfolio_kenji/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/react_portfolio_kenji/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -10,11 +10,11 @@
     "static/media/landbank.png": "/react_portfolio_kenji/static/media/landbank.bc358048a389d7cb3ceb.png",
     "index.html": "/react_portfolio_kenji/index.html",
     "main.a321f5b1.css.map": "/react_portfolio_kenji/static/css/main.a321f5b1.css.map",
-    "main.29b2271f.js.map": "/react_portfolio_kenji/static/js/main.29b2271f.js.map",
+    "main.57200d14.js.map": "/react_portfolio_kenji/static/js/main.57200d14.js.map",
     "453.b05d8aa5.chunk.js.map": "/react_portfolio_kenji/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a321f5b1.css",
-    "static/js/main.29b2271f.js"
+    "static/js/main.57200d14.js"
   ]
 }
