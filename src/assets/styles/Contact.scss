@@ -1,0 +1,100 @@
+.contact_wrapper {
+  padding: 40px;
+  background-color: #120303;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #ccc;
+  }
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ✅ Fix for missing text visibility */
+.MuiInputBase-input,
+.MuiOutlinedInput-input {
+  color: #000 !important;
+  background-color: #fff !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.MuiOutlinedInput-root {
+  background-color: #fff !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #ccc !important;
+}
+
+.MuiInputLabel-root {
+  color: #333 !important;
+  font-family: Arial, sans-serif !important;
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: Arial, sans-serif !important;
+}
+
+::placeholder {
+  color: #888 !important;
+}
