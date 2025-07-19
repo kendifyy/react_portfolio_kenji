@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kendifyy/react_portfolio_kenji/static/css/main.9ee95091.css",
-    "main.js": "/kendifyy/react_portfolio_kenji/static/js/main.f064d534.js",
-    "static/js/453.b05d8aa5.chunk.js": "/kendifyy/react_portfolio_kenji/static/js/453.b05d8aa5.chunk.js",
-    "static/media/bg-light.png": "/kendifyy/react_portfolio_kenji/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/kendifyy/react_portfolio_kenji/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/trabajuan.jpg": "/kendifyy/react_portfolio_kenji/static/media/trabajuan.06331677a134b9ffebc4.jpg",
-    "static/media/kenji.jpg": "/kendifyy/react_portfolio_kenji/static/media/kenji.b849fd7971941c0ea8ed.jpg",
-    "static/media/landbank.png": "/kendifyy/react_portfolio_kenji/static/media/landbank.bc358048a389d7cb3ceb.png",
-    "index.html": "/kendifyy/react_portfolio_kenji/index.html",
-    "main.9ee95091.css.map": "/kendifyy/react_portfolio_kenji/static/css/main.9ee95091.css.map",
-    "main.f064d534.js.map": "/kendifyy/react_portfolio_kenji/static/js/main.f064d534.js.map",
-    "453.b05d8aa5.chunk.js.map": "/kendifyy/react_portfolio_kenji/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/react_portfolio_kenji/static/css/main.a321f5b1.css",
+    "main.js": "/react_portfolio_kenji/static/js/main.29b2271f.js",
+    "static/js/453.b05d8aa5.chunk.js": "/react_portfolio_kenji/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/react_portfolio_kenji/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/react_portfolio_kenji/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/trabajuan.jpg": "/react_portfolio_kenji/static/media/trabajuan.06331677a134b9ffebc4.jpg",
+    "static/media/kenji.jpg": "/react_portfolio_kenji/static/media/kenji.b849fd7971941c0ea8ed.jpg",
+    "static/media/landbank.png": "/react_portfolio_kenji/static/media/landbank.bc358048a389d7cb3ceb.png",
+    "index.html": "/react_portfolio_kenji/index.html",
+    "main.a321f5b1.css.map": "/react_portfolio_kenji/static/css/main.a321f5b1.css.map",
+    "main.29b2271f.js.map": "/react_portfolio_kenji/static/js/main.29b2271f.js.map",
+    "453.b05d8aa5.chunk.js.map": "/react_portfolio_kenji/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ee95091.css",
-    "static/js/main.f064d534.js"
+    "static/css/main.a321f5b1.css",
+    "static/js/main.29b2271f.js"
   ]
 }
