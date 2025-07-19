@@ -8,9 +8,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/kendifyy" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/kenji-izon-cruses-90a341298/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-         <a href="https://www.linkedin.com/in/kenji-izon-cruses-90a341298/" target="_blank" rel="noreferrer"><FacebookIcon/></a>
+        
       </div>
       
     </footer>
