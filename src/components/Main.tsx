@@ -21,7 +21,7 @@ function Main() {
         </div>
 
           <h1>Kenji Izon Cruses</h1>
-          <p>Junior Developer / QA Specialist </p>
+          <p>Web Developer / QA Specialist </p>
           <div className="mobile_social_icons">
             <a href="https://github.com/kendifyy" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/kenji-izon-cruses-90a341298/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
