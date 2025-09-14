@@ -11,12 +11,10 @@ const labelsFirst = [
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "SCSS",
+    "PHP",
+    "Basic Familiarization Android Kotlin and C#",
+    
 ];
 
 const labelsSecond = [
