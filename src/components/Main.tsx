@@ -2,6 +2,8 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 
 function Main() {
 
@@ -13,9 +15,17 @@ function Main() {
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/kendifyy" target="_blank" rel="noreferrer">
+              <GitHubIcon />
+            </a>
+            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer">
+              <LinkedInIcon />
+            </a>
+            <a href="https://www.facebook.com/kenji.cruses.31" target="_blank" rel="noreferrer">
+              <FacebookIcon />
+            </a>
           </div>
+
           <h1>Kenji Izon Cruses</h1>
           <p>Junior Web & Software Developer</p>
           <div className="mobile_social_icons">
