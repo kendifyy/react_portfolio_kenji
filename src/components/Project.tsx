@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
@@ -72,3 +73,4 @@ function Project() {
 }
 
 export default Project;
+*/
