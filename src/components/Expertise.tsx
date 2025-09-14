@@ -13,20 +13,16 @@ const labelsFirst = [
     "CSS3",
     "SCSS",
     "PHP",
-    "Basic Familiarization Android Kotlin and C#",
+    "Basic Familiarization Python, SQL, Android Kotlin and C#",
     
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "JMeter",
+    "DebugBear",
+   
 ];
 
 const labelsThird = [
@@ -47,8 +43,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Web/Software Development</h3>
+                    <p>I am enthusiastic about creating web and software applications, combining creativity and functionality to deliver smooth user experiences. My work spans both frontend and backend development, using technologies like React, TypeScript, JavaScript, HTML5, CSS3, SCSS, and PHP. I also have basic familiarization with Python, SQL, Kotlin, and C#.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (

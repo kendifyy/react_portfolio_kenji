@@ -27,7 +27,7 @@ function Main() {
             </a>
           </div>
 
-          <h1>Kenji Izon Cruses</h1>
+          <h1>Heart lang pala sagot Patricia Baldueza, ang galing</h1>
           <p>Junior Web & Software Developer</p>
           <div className="mobile_social_icons">
             <a href="https://github.com/kendifyy" target="_blank" rel="noreferrer"><GitHubIcon/></a>
