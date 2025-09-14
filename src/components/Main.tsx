@@ -11,14 +11,14 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
+          <img src="react-portfolio-template\src\assets\images\kenn.jpg" alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
             <a href="https://github.com/kendifyy" target="_blank" rel="noreferrer">
               <GitHubIcon />
             </a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/kenji-izon-cruses-90a341298/" target="_blank" rel="noreferrer">
               <LinkedInIcon />
             </a>
             <a href="https://www.facebook.com/kenji.cruses.31" target="_blank" rel="noreferrer">
@@ -29,8 +29,9 @@ function Main() {
           <h1>Kenji Izon Cruses</h1>
           <p>Junior Web & Software Developer</p>
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/kendifyy" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/kenji-izon-cruses-90a341298/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.facebook.com/kenji.cruses.31" target="_blank" rel="noreferrer"><FacebookIcon/></a>
           </div>
         </div>
       </div>
