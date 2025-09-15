@@ -18,7 +18,6 @@
     color: white;
   }
 
-  /* keep white background */
   fieldset {
     background-color: white;
   }
@@ -48,19 +47,44 @@ form {
   margin-bottom: 15px !important;
 }
 
-/* ✅ Force input text black */
-.MuiInputBase-input {
-  color: #050f0b !important;   /* black text */
-  caret-color: #050f0b !important;
+/* 🌞 Light Mode (when body has .light class) */
+body.light {
+  .MuiInputBase-input {
+    color: #050f0b !important;
+    caret-color: #050f0b !important;
+  }
+
+  .MuiInputBase-input::placeholder {
+    color: #050f0b !important;
+    opacity: 1 !important;
+  }
+
+  textarea {
+    color: #050f0b !important;
+  }
+
+  .contact-form fieldset {
+    background-color: white;
+  }
 }
 
-/* ✅ Force placeholder text black */
-.MuiInputBase-input::placeholder {
-  color: #050f0b !important;
-  opacity: 1 !important;
-}
+/* 🌙 Dark Mode (when body has .dark class) */
+body.dark {
+  .MuiInputBase-input {
+    color: white !important;
+    caret-color: white !important;
+  }
 
-/* ✅ Make sure textarea text is also black */
-textarea {
-  color: #050f0b !important;
+  .MuiInputBase-input::placeholder {
+    color: white !important;
+    opacity: 0.8 !important;
+  }
+
+  textarea {
+    color: white !important;
+  }
+
+  .contact-form fieldset {
+    background-color: #1e1e1e; /* dark grey */
+  }
 }
