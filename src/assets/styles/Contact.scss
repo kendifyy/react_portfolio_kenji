@@ -49,44 +49,40 @@ form {
 
 /* 🌞 Light Mode */
 body.light {
-  .MuiInputBase-input {
+  input.MuiInputBase-input,
+  textarea.MuiInputBase-input {
     color: #000 !important;         /* black text */
-    caret-color: #000 !important;   /* black cursor */
+    caret-color: #000 !important;
   }
 
-  .MuiInputBase-input::placeholder {
+  input.MuiInputBase-input::placeholder,
+  textarea.MuiInputBase-input::placeholder {
     color: #000 !important;         /* black placeholder */
-    opacity: 0.8 !important;
-  }
-
-  textarea {
-    color: #000 !important;
+    opacity: 0.9 !important;
   }
 
   .contact-form fieldset {
     background-color: #fff;         /* white background */
-    border-color: #ccc;             /* light grey border */
+    border-color: #ccc;             /* light border */
   }
 }
 
 /* 🌙 Dark Mode */
 body.dark {
-  .MuiInputBase-input {
+  input.MuiInputBase-input,
+  textarea.MuiInputBase-input {
     color: #fff !important;         /* white text */
     caret-color: #fff !important;
   }
 
-  .MuiInputBase-input::placeholder {
+  input.MuiInputBase-input::placeholder,
+  textarea.MuiInputBase-input::placeholder {
     color: #fff !important;         /* white placeholder */
-    opacity: 0.7 !important;
-  }
-
-  textarea {
-    color: #fff !important;
+    opacity: 0.8 !important;
   }
 
   .contact-form fieldset {
     background-color: #1e1e1e;      /* dark grey */
-    border-color: #444;
+    border-color: #444;             /* darker border */
   }
 }
