@@ -10,7 +10,7 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Experience & Achievements</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -28,15 +28,14 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2024 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Project Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Founders Live Bataan - Champion</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
+We propose a technology-driven project to tackle social issues in the Philippines, featuring an energy-generating tile, EcoFare a system that allows commuters to use recyclable waste as fare and Calamity, an information platform that helps guide communities during disasters.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -44,11 +43,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Project Manager & Backend Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Appcon 2023 OTIS Japan inc - Top 20 Qualifiers</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
+Developed a web and mobile application to address social issues in the Philippines, including Calmity, a disaster-response app that provides informative solutions and guidance during emergencies. This project was supported by Otis Japan.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -56,10 +54,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">SYNERGY SOFTWARE SOLUTIONS - Top 5</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Developed a web and mobile application to address customer issues for Converge ICT Inc., supported by Synergy Software Solutions.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
