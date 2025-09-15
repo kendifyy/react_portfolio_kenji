@@ -18,6 +18,7 @@
     color: white;
   }
 
+  /* keep the white background */
   fieldset {
     background-color: white;
   }
@@ -45,4 +46,10 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+/* ✅ make input text black */
+.MuiInputBase-input {
+  color: #050f0b !important;   /* black text */
+  caret-color: #050f0b !important; /* black blinking cursor */
 }
