@@ -18,8 +18,10 @@
     color: white;
   }
 
+  /* ✅ Fix: fieldset background must be transparent 
+     so it doesn’t overlap the text inside */
   fieldset {
-    background-color: white;
+    background-color: transparent;
   }
 }
 
@@ -45,4 +47,10 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+/* ✅ Ensure text inside inputs is visible */
+.MuiInputBase-input {
+  color: black !important;     /* change to white if your background is dark */
+  caret-color: black !important;
 }
