@@ -18,8 +18,10 @@
     color: white;
   }
 
+  /* ✅ Fix: fieldset background must be transparent 
+     so it doesn’t overlap the text inside */
   fieldset {
-    background-color: white;
+    background-color: transparent;
   }
 }
 
@@ -47,42 +49,8 @@ form {
   margin-bottom: 15px !important;
 }
 
-/* 🌞 Light Mode */
-body.light {
-  input.MuiInputBase-input,
-  textarea.MuiInputBase-input {
-    color: #000 !important;         /* black text */
-    caret-color: #000 !important;
-  }
-
-  input.MuiInputBase-input::placeholder,
-  textarea.MuiInputBase-input::placeholder {
-    color: #000 !important;         /* black placeholder */
-    opacity: 0.9 !important;
-  }
-
-  .contact-form fieldset {
-    background-color: #fff;         /* white background */
-    border-color: #ccc;             /* light border */
-  }
-}
-
-/* 🌙 Dark Mode */
-body.dark {
-  input.MuiInputBase-input,
-  textarea.MuiInputBase-input {
-    color: #fff !important;         /* white text */
-    caret-color: #fff !important;
-  }
-
-  input.MuiInputBase-input::placeholder,
-  textarea.MuiInputBase-input::placeholder {
-    color: #fff !important;         /* white placeholder */
-    opacity: 0.8 !important;
-  }
-
-  .contact-form fieldset {
-    background-color: #1e1e1e;      /* dark grey */
-    border-color: #444;             /* darker border */
-  }
+/* ✅ Ensure text inside inputs is visible */
+.MuiInputBase-input {
+  color: black !important;     /* change to white if your background is dark */
+  caret-color: black !important;
 }
