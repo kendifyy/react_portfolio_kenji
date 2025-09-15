@@ -18,8 +18,7 @@
     color: white;
   }
 
-  /* ✅ Fix: fieldset background must be transparent 
-     so it doesn’t overlap the text inside */
+  /* ✅ Transparent so background color from theme shows */
   fieldset {
     background-color: transparent;
   }
@@ -49,8 +48,28 @@ form {
   margin-bottom: 15px !important;
 }
 
-/* ✅ Ensure text inside inputs is visible */
-.MuiInputBase-input {
-  color: black !important;     /* change to white if your background is dark */
-  caret-color: black !important;
+/* 🌞 Light Mode */
+body.light {
+  .MuiInputBase-input {
+    color: black !important;
+    caret-color: black !important;
+  }
+
+  .MuiInputBase-input::placeholder {
+    color: black !important;
+    opacity: 0.8;
+  }
+}
+
+/* 🌙 Dark Mode */
+body.dark {
+  .MuiInputBase-input {
+    color: white !important;
+    caret-color: white !important;
+  }
+
+  .MuiInputBase-input::placeholder {
+    color: white !important;
+    opacity: 0.8;
+  }
 }
