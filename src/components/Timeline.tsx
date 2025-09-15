@@ -20,10 +20,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">IT Support and IT Officer (Internship)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Landbank of the Philippines (Bataan Main Branch)</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Provided IT support and served as IT Officer, overseeing database management and resolving system issues to enhance workflow performance. Handled both hardware and software troubleshooting through systematic diagnostics, ensuring minimal downtime and improved efficiency. Demonstrated effective communication and customer service when coordinating with stakeholders. Collaborated with teams while showcasing strong adaptability, multitasking, and task prioritization. Applied logical reasoning and keen attention to detail in troubleshooting, problem-solving, and decision-making processes.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
