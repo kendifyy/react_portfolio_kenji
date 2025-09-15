@@ -51,6 +51,6 @@ form {
 
 /* ✅ Ensure text inside inputs is visible */
 .MuiInputBase-input {
-  color: black !important;     /* change to white if your background is dark */
-  caret-color: black !important;
+  color: rgb(255, 255, 255) !important;     /* change to white if your background is dark */
+  caret-color: rgb(175, 169, 169) !important;
 }
