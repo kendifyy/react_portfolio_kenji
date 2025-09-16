@@ -18,7 +18,6 @@
     color: white;
   }
 
-  /* ✅ Fieldset background must be transparent */
   fieldset {
     background-color: transparent;
   }
@@ -54,10 +53,11 @@ body.light {
     color: black !important;
     caret-color: black !important;
   }
-
   .MuiInputBase-input::placeholder {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .MuiFormLabel-root {
     color: black !important;
-    opacity: 0.8;
   }
 }
 
@@ -67,9 +67,20 @@ body.dark {
     color: white !important;
     caret-color: white !important;
   }
-
   .MuiInputBase-input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .MuiFormLabel-root {
     color: white !important;
-    opacity: 0.8;
+  }
+
+  /* optional: button invert */
+  .contact-form button {
+    background-color: #5000ca;
+    color: white;
+  }
+  .contact-form button:hover {
+    background-color: white;
+    color: #5000ca;
   }
 }
