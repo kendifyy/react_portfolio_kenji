@@ -18,10 +18,8 @@
     color: white;
   }
 
-  /* Fix: keep borders visible */
   fieldset {
-    border-width: 1px !important;
-    background-color: transparent !important;
+    background-color: transparent;
   }
 }
 
@@ -51,69 +49,38 @@ form {
 
 /* 🌞 Light Mode */
 body.light {
-  /* input container */
-  .MuiOutlinedInput-root {
-    background-color: #ffffff !important;
-  }
-
-  /* border */
-  .MuiOutlinedInput-notchedOutline {
-    border-color: rgba(0, 0, 0, 0.23) !important;
-  }
-
-  /* text */
   .MuiInputBase-input {
-    color: #000000 !important;
-    caret-color: #000000 !important;
+    color: black !important;
+    caret-color: black !important;
   }
-
-  /* placeholder */
   .MuiInputBase-input::placeholder {
-    color: rgba(0, 0, 0, 0.6) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
   }
-
-  /* floating label */
   .MuiFormLabel-root {
-    color: #000000 !important;
+    color: black !important;
   }
 }
 
 /* 🌙 Dark Mode */
 body.dark {
-  /* input container */
-  .MuiOutlinedInput-root {
-    background-color: #1e1e1e !important;
-  }
-
-  /* border */
-  .MuiOutlinedInput-notchedOutline {
-    border-color: rgba(255, 255, 255, 0.5) !important;
-  }
-
-  /* text */
   .MuiInputBase-input {
-    color: #ffffff !important;
-    caret-color: #ffffff !important;
+    color: white !important;
+    caret-color: white !important;
   }
-
-  /* placeholder */
   .MuiInputBase-input::placeholder {
     color: rgba(255, 255, 255, 0.7) !important;
   }
-
-  /* floating label */
   .MuiFormLabel-root {
-    color: #ffffff !important;
+    color: white !important;
   }
 
-  /* button invert */
+  /* optional: button invert */
   .contact-form button {
-    background-color: #5000ca !important;
-    color: #ffffff !important;
+    background-color: #5000ca;
+    color: white;
   }
-
   .contact-form button:hover {
-    background-color: #ffffff !important;
-    color: #5000ca !important;
+    background-color: white;
+    color: #5000ca;
   }
 }
