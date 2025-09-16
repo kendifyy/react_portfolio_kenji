@@ -59,6 +59,11 @@ body.light {
   .MuiFormLabel-root {
     color: black !important;
   }
+
+  /* input box background */
+  .MuiOutlinedInput-root {
+    background-color: white !important;
+  }
 }
 
 /* 🌙 Dark Mode */
@@ -74,7 +79,12 @@ body.dark {
     color: white !important;
   }
 
-  /* optional: button invert */
+  /* input box background */
+  .MuiOutlinedInput-root {
+    background-color: #1e1e1e !important;  /* dark gray */
+  }
+
+  /* button invert */
   .contact-form button {
     background-color: #5000ca;
     color: white;
