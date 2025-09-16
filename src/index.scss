@@ -16,6 +16,7 @@ code {
 .main-container {
   position: relative;
   background-color: #0d1116;
+
 }
 
 a {
@@ -24,7 +25,7 @@ a {
 
 a:hover {
   color: #5000ca;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 p, a, h1, h2, h3, h4, h5, label, button {
@@ -91,8 +92,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
-/* 🌞 Light Mode */
-body.light {
+.light-mode {
   background-color: #f8f9fa;
 
   .navigation-bar {
@@ -105,6 +105,7 @@ body.light {
 
   a:hover {
     color: #5000ca;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
 
   .navigation-bar svg {
@@ -121,10 +122,7 @@ body.light {
 
   .chip {
     background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 
-      0px 3px 1px -2px rgba(0, 0, 0, 0.2), 
-      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 
-      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
   .vertical-timeline::before {
@@ -132,14 +130,11 @@ body.light {
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 
-      0px 3px 1px -2px rgba(0, 0, 0, 0.2), 
-      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 
-      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
   .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: rgb(255, 255, 255);
+    color: gray;
   }
 
   .vertical-timeline-element-content-arrow {
@@ -148,58 +143,6 @@ body.light {
 
   .flex-chips .chip-title {
     color: #0d1116;
-  }
-
-  /* 🎨 Input fields */
-  .MuiOutlinedInput-root {
-    background-color: #ffffff !important;
-  }
-  .MuiInputBase-input {
-    color: #000000 !important;
-    caret-color: #000000 !important;
-  }
-  .MuiInputBase-input::placeholder {
-    color: rgba(0, 0, 0, 0.6) !important;
-  }
-  .MuiFormLabel-root {
-    color: #000000 !important;
-  }
-}
-
-/* 🌙 Dark Mode */
-body.dark {
-  background-color: #121212;
-
-  p, a, h1, h2, h3, h4, h5, label, button {
-    color: #ffffff;
-  }
-
-  .navigation-bar {
-    background-color: #121212;
-  }
-
-  .MuiOutlinedInput-root {
-    background-color: #1e1e1e !important;
-  }
-  .MuiInputBase-input {
-    color: #ffffff !important;
-    caret-color: #ffffff !important;
-  }
-  .MuiInputBase-input::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-  .MuiFormLabel-root {
-    color: #ffffff !important;
-  }
-
-  .contact-form button {
-    background-color: #5000ca !important;
-    color: #ffffff !important;
-  }
-
-  .contact-form button:hover {
-    background-color: #ffffff !important;
-    color: #5000ca !important;
   }
 }
 

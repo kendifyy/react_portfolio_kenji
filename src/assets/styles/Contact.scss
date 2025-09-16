@@ -46,3 +46,41 @@ form {
   width: 100% !important;
   margin-bottom: 15px !important;
 }
+
+/* 🌞 Light Mode */
+body.light {
+  .MuiInputBase-input {
+    color: black !important;
+    caret-color: black !important;
+  }
+  .MuiInputBase-input::placeholder {
+    color: rgba(0, 0, 0, 0.7) !important;
+  }
+  .MuiFormLabel-root {
+    color: black !important;
+  }
+}
+
+/* 🌙 Dark Mode */
+body.dark {
+  .MuiInputBase-input {
+    color: white !important;
+    caret-color: white !important;
+  }
+  .MuiInputBase-input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .MuiFormLabel-root {
+    color: white !important;
+  }
+
+  /* optional: button invert */
+  .contact-form button {
+    background-color: #5000ca;
+    color: white;
+  }
+  .contact-form button:hover {
+    background-color: white;
+    color: #5000ca;
+  }
+}
