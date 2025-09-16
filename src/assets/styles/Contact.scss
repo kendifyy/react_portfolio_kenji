@@ -10,7 +10,8 @@
   button {
     float: right;
     background-color: white;
-    color: #050f0b;
+    color: #0d1116;
+    border: 1px solid #0d1116;
   }
 
   button:hover {
@@ -26,6 +27,7 @@
 label {
   font-size: 1.2rem;
   font-family: 'DomaineDispNar-Medium', sans-serif;
+  color: #0d1116;
 }
 
 .form-flex {
@@ -47,40 +49,20 @@ form {
   margin-bottom: 15px !important;
 }
 
-/* 🌞 Light Mode */
-body.light {
-  .MuiInputBase-input {
-    color: black !important;
-    caret-color: black !important;
-  }
-  .MuiInputBase-input::placeholder {
-    color: rgba(0, 0, 0, 0.7) !important;
-  }
-  .MuiFormLabel-root {
-    color: black !important;
-  }
+/* Inputs - Light Theme */
+.MuiInputBase-input {
+  color: #0d1116 !important;
+  caret-color: #0d1116 !important;
 }
 
-/* 🌙 Dark Mode */
-body.dark {
-  .MuiInputBase-input {
-    color: white !important;
-    caret-color: white !important;
-  }
-  .MuiInputBase-input::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-  }
-  .MuiFormLabel-root {
-    color: white !important;
-  }
+.MuiInputBase-input::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
 
-  /* optional: button invert */
-  .contact-form button {
-    background-color: #5000ca;
-    color: white;
-  }
-  .contact-form button:hover {
-    background-color: white;
-    color: #5000ca;
-  }
+.MuiFormLabel-root {
+  color: #0d1116 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.3) !important;
 }
