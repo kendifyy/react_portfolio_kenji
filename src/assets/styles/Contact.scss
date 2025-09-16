@@ -9,14 +9,13 @@
 
   button {
     float: right;
-    background-color: white;
-    color: #0d1116;
-    border: 1px solid #0d1116;
+    background-color: #5000ca;
+    color: #ffffff;
   }
 
   button:hover {
-    background-color: #5000ca;
-    color: white;
+    background-color: #0d1116;
+    color: #ffffff;
   }
 
   fieldset {
@@ -49,10 +48,14 @@ form {
   margin-bottom: 15px !important;
 }
 
-/* Inputs - Light Theme */
+/* ✅ Inputs styled for light theme */
+.MuiOutlinedInput-root {
+  background-color: #ffffff !important;
+}
+
 .MuiInputBase-input {
-  color: #0d1116 !important;
-  caret-color: #0d1116 !important;
+  color: #000000 !important;
+  caret-color: #000000 !important;
 }
 
 .MuiInputBase-input::placeholder {
@@ -60,9 +63,5 @@ form {
 }
 
 .MuiFormLabel-root {
-  color: #0d1116 !important;
-}
-
-.MuiOutlinedInput-notchedOutline {
-  border-color: rgba(0, 0, 0, 0.3) !important;
+  color: #000000 !important;
 }

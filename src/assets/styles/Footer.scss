@@ -1,15 +1,15 @@
-footer {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.footer {
+  background-color: #f8f9fa;
+  color: #0d1116;
+  padding: 20px;
+  text-align: center;
+}
 
-    svg {
-        width: 1.1em !important;
-        height: 1.1em !important;
-        margin-right: 10px;
-    }
+.footer a {
+  color: #5000ca;
+  text-decoration: none;
+}
 
-    p {
-        font-size: 0.8em;
-    }
+.footer a:hover {
+  text-decoration: underline;
 }
