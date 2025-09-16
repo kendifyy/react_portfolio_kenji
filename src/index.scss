@@ -92,7 +92,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 /* 🌞 Light Mode */
-body.light-mode {
+body.light {
   background-color: #f8f9fa;
 
   .navigation-bar {
@@ -105,7 +105,6 @@ body.light-mode {
 
   a:hover {
     color: #5000ca;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
   }
 
   .navigation-bar svg {
@@ -122,7 +121,10 @@ body.light-mode {
 
   .chip {
     background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0.14), 0px 1px 5px 0px rgba(0, 0.12);
+    box-shadow: 
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2), 
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
   .vertical-timeline::before {
@@ -130,7 +132,10 @@ body.light-mode {
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0.14), 0px 1px 5px 0px rgba(0, 0.12);
+    box-shadow: 
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2), 
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   }
 
   .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
@@ -163,6 +168,16 @@ body.light-mode {
 
 /* 🌙 Dark Mode */
 body.dark {
+  background-color: #121212;
+
+  p, a, h1, h2, h3, h4, h5, label, button {
+    color: #ffffff;
+  }
+
+  .navigation-bar {
+    background-color: #121212;
+  }
+
   .MuiOutlinedInput-root {
     background-color: #1e1e1e !important;
   }
